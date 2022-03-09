@@ -1,0 +1,15 @@
+.cart_right {
+  height: auto;
+  width: 150px;
+  float: right;
+}
+.toggle {
+  height: auto;
+  width: 150px;
+  float: right;
+}
+.search {
+  height: auto;
+  width: 150px;
+  float: left;
+}
