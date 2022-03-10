@@ -5,8 +5,7 @@ This is your final project for the frontend module
 ## Instructions
 
 ### General
-
-Fork this repo, then clone the **fork** to your machine and start working on it. You can open a pull request as soon as possible (no need to wait until finished)
+Using Reactjs, Redux, typescript
 For styling, you can use whatever css solution you want: css, scss, Material UI, etc.
 You need to install the css library yourself. Make sure to use node-sass version 4.14.1 if you want to use scss (using other version may break the app, so switch to the above version in that case)
 
@@ -68,16 +67,5 @@ Take your time to implement the following features:
 - Implement a search bar to search for a country
 - Convert your hook to use either thunk or saga to fetch the data
 - Switch theme of the app with Context API
-- Add/remove the countries to/from favorite list using Redux, Redux-saga, Redux-thunk
-- Sort the table based on name, region, etc.
+- Add/remove the countries to/from favorite list using Redux, Redux-saga, Redux-thunk(I have used thunk)
 - Maker sure the theme and favorite list is saved in local storage to persist across refreshes of the page (you can use thunk or saga to implement side effects that get state from the store and save it to local storage)
-
-## References
-
-[Demo](https://flagify.netlify.app/)
-
-Homepage:
-![homepage](media/home.png)
-
-Country page:
-![country page](media/country.png)
